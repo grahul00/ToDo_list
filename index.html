@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>ToDo_List</title>
+</head>
+
+<body>
+<input type="text" id="te" placeholder="Enter Text">
+<button type="button" id="unu" hover="change()" onclick="add()">Click me</button>
+<h1>ToDo List</h1>
+<div id="di">
+<ul id="l">
+</ul>
+</div>
+
+
+<script>
+var as=document.getElementById('te')
+var list=document.getElementById('l')
+
+unu
+function add()
+{
+  var n=document.createElement('li')
+  var text=as.value
+  var tex=document.createTextNode(text)
+  n.appendChild(tex)
+  var butto=document.createElement('button')
+  butto.innerHTML='Delete'
+    butto.setAttribute('id','cre')
+  n.appendChild(butto)
+  list.appendChild(n)
+}
+
+
+</script>
+</html>
